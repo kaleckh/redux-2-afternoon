@@ -428,7 +428,7 @@ import { requestUserData } from './../../ducks/userReducer'
 class Budget extends Component {
 
   componentDidMount() {
-  // WHEN THE COMPONENT MOUNTS, THE ACTION CREATOR IS INVOKED, THE REDUCER FUNCTION FIRES, AND STATE IS UPDATED ACCORDINGLY   // IN THE REDUX STORE
+  
     this.props.requestUserData()
   }
 
